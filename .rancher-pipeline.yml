@@ -1,0 +1,7 @@
+stages:
+- name: b
+  steps:
+  - runScriptConfig:
+      image: busybox
+      shellScript: ls
+timeout: 60
